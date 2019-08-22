@@ -1,5 +1,4 @@
 {
-  "root": "/",
   "routes": {
     "/dtpr_codesignkit/*": "/dtpr_codesignkit/",
     "/dtpr_designguide/*": "/dtpr_designguide/",
