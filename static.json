@@ -1,8 +1,0 @@
-{
-  "routes": {
-    "/dtpr_codesignkit/*": "/dtpr_codesignkit/",
-    "/dtpr_designguide/*": "/dtpr_designguide/",
-    "/dtpr_icons/*": "/dtpr_icons/",
-    "/dtpr_prototype/*": "/dtpr_prototype/"
-  }
-}
