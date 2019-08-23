@@ -694,7 +694,7 @@
           window.location = "https://www.reddit.com/r/toronto/";
         });
 
-        $("#button-share").click(function(e) {
+        $("#button-share").on("touch", function(e) {
           e.preventDefault();
           if (navigator.share) {
             navigator
@@ -703,7 +703,7 @@
                 text: "Look at the details on this sensor.",
                 url: window.location.href
               })
-              .then(() => $("#button-share").prop("checked", false))
+              .then(() => $("#button-share").prop("selected", false))
               .catch(error => console.log("Error sharing", error));
           }
         });
