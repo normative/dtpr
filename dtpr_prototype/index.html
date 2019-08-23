@@ -695,7 +695,6 @@
         });
 
         $("#button-share").click(function(e) {
-          e.preventDefault();
           if (navigator.share) {
             navigator
               .share({
@@ -706,7 +705,7 @@
               .then(() => this.prop("selected", false))
               .catch(error => console.log("Error sharing", error));
           }
-          $("#button-share").blur();
+          this.blur();
         });
 
         if (techologyIndex != null) {
@@ -980,10 +979,10 @@
     </div>
   </body>
   <script>
-    if (!navigator.share) {
-      var shareButtion = document.getElementById("button-share");
-      console.log(shareButtion);
-      shareButtion.style.display = "none";
-    }
+    // if (!navigator.share) {
+    //   var shareButtion = document.getElementById("button-share");
+    //   console.log(shareButtion);
+    //   shareButtion.style.display = "none";
+    // }
   </script>
 </html>
