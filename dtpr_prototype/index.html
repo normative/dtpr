@@ -706,6 +706,7 @@
               .then(() => this.prop("selected", false))
               .catch(error => console.log("Error sharing", error));
           }
+          $("#button-share").blur();
         });
 
         if (techologyIndex != null) {
