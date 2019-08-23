@@ -703,7 +703,7 @@
                 text: "Check out Web Fundamentals — it rocks!",
                 url: window.location.href
               })
-              .then(() => console.log("Successful share"))
+              .then(() => $("#button-share").prop("checked", false))
               .catch(error => console.log("Error sharing", error));
           }
         });
