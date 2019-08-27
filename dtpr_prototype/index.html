@@ -499,8 +499,10 @@
           "../dtpr_icons/" + purposeBadge["Icon Shortname"] + ".svg";
         // purposeBlackImage = "../dtpr_icons/"+purposeBadge["Icon Shortname"].replace(/\//,"/black/")+".svg";
         privacyBadge = data[page["Technology Type"][0]];
+        console.log(privacyBadge);
         privacyImage =
           "../dtpr_icons/" + privacyBadge["Icon Shortname"] + ".svg";
+        console.log(privacyImage);
         accountabilityBadge = data[page["Accountability"][0]];
         accountabilityImage = accountabilityBadge["Logo"][0]["url"];
         privacyTransparentImage =
@@ -560,7 +562,7 @@
         $("#badge_accountability").attr("data-id", accountabilityBadge.id);
 
         var dtpr_baseurl =
-          "https://dtpr.sidewalklabs.com/dtpr_prototype/?technology=";
+          "https://side-walk-poc.herokuapp.com/dtpr_prototype/index.html?technology=";
         var params = new URLSearchParams(window.location.search);
         var techologyIndex = params.get("technology");
         var el = kjua({ text: dtpr_baseurl + techologyIndex });
@@ -705,7 +707,12 @@
               .then(() => this.prop("selected", false))
               .catch(error => console.log("Error sharing", error));
           }
-          this.blur();
+          $(this).data("clicked", true);
+
+          if ($(this).data("clicked")) {
+            console.log("clicked! now set to false and blur");
+            $(this).focusout();
+          }
         });
 
         if (techologyIndex != null) {
