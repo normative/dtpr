@@ -527,38 +527,34 @@ var allRecords = {
   recFFo7YEqGz2EWLh: {
     Headline: "Accountable Organization",
     Description:
-      "Sidewalk Labs is an Alphabet company with a mission to address big urban challenges and improve quality of life using new technologies in a digital age.\n[Find out more here](https://www.sidewalklabs.com)",
+      "Normative is a software innovation firm.\n[Find out more here](https://www.normative.com)",
     Logo: [
       {
         id: "attPWoDENXguuSLqW",
-        url:
-          "https://dl.airtable.com/.attachments/78eac2eb32c685d49fcc96481a7d80b8/c09b7ec1/swl_logo.png",
-        filename: "swl_logo.png",
+        url: "https://imgur.com/BHGCbiH",
+        filename: "normlogo.png",
         size: 10098,
         type: "image/png",
         thumbnails: {
           small: {
-            url:
-              "https://dl.airtable.com/.attachmentThumbnails/2056169b56229c70855bb5e0424a4823/62e2812b",
+            url: "https://imgur.com/BjZndrB",
             width: 50,
             height: 36
           },
           large: {
-            url:
-              "https://dl.airtable.com/.attachmentThumbnails/32634fdf7e7bfd6dad42d964acba72a6/288e6911",
+            url: "https://imgur.com/IVs1C7B",
             width: 350,
             height: 250
           },
           full: {
-            url:
-              "https://dl.airtable.com/.attachmentThumbnails/a8e1cc60ea2bd8d0433f3ae20a0e4949/a5d007bc",
+            url: "https://imgur.com/CYq9hjT",
             width: 3000,
             height: 3000
           }
         }
       }
     ],
-    Name: "Sidewalk Labs",
+    Name: "Normative",
     "Icon Shortname": "accountable/org",
     "Icon SVG": [
       {
@@ -1294,7 +1290,7 @@ var allRecords = {
     ],
     "Icon Shortname": "process/rdua",
     Description:
-      "Data activity has undergone a Responsible Data Use Assessment and determined to provide a net benefit. The RDUA is a process that Sidewalk Labs conducts prior to the start of any data activity.",
+      "Data activity has undergone a Responsible Data Use Assessment and determined to provide a net benefit. The RDUA is a process that Normative conducts prior to the start of any data activity.",
     Name: "RDUA Approved",
     Technologies: [
       "recbAeqVohzghEEik",
@@ -3610,7 +3606,7 @@ var databaseContent = {
       Name: "307",
       Headline: "307 Lake Shore Blvd East",
       Description:
-        "307 is the central office and \nexperimental workspace for Sidewalk Labs in Toronto. This is where we work every day, exploring many of the ideas that might become part of a future neighbourhood.\n\nFundamental to our process is co-creation. This means making the ideas we’re exploring accessible to everyone, creating a venue for new ideas from the community to emerge, and workshopping ideas together. We believe this open process will help create a much better neighbourhood — a place that is inclusive and can become a beacon for people-centred urban innovation. [More information here.](https://sidewalktoronto.ca/get-involved/307-landing/)",
+        "307 is the central office and \nexperimental workspace for Normative in Toronto. This is where we work every day, exploring many of the ideas that might become part of a future neighbourhood.\n\nFundamental to our process is co-creation. This means making the ideas we’re exploring accessible to everyone, creating a venue for new ideas from the community to emerge, and workshopping ideas together. We believe this open process will help create a much better neighbourhood — a place that is inclusive and can become a beacon for people-centred urban innovation. [More information here.](https://www.normative.com/)",
       Technologies: [
         "recbAeqVohzghEEik",
         "recy3FWRF3Tzv9WgI",
@@ -3645,7 +3641,7 @@ var databaseContent = {
         "Infrared occupancy sensors measure the number of people who are in a given temperature control zone in a building, in order to adjust the thermostat. This is part of a pilot to use occupancy, thermostat, comfort and weather data to determine ways to reduce energy, an aspect of our climate goals.",
       "Data Type": ["recayvgBssg0Gb1KS", "recTFoeo30tBSDH1I"],
       Name: "Infrared Motion Sensor",
-      "Email address": "dtpr-hello@sidewalklabs.com",
+      "Email address": "hello@normative.com",
       Accountability: ["recFFo7YEqGz2EWLh"],
       Purpose: ["recmJUrdMfDggeqhD"],
       TaxonomyTable: "Instances",
@@ -3664,7 +3660,7 @@ var databaseContent = {
         "Video recording is used on these premises for security reasons, and only reviewed in the case of an event. If you have any questions contact privacy@normative.com",
       "Data Type": ["recayvgBssg0Gb1KS", "rec7ZrXrkubsdUWr5"],
       Name: "Security Camera",
-      "Email address": "dtpr-hello@sidewalklabs.com",
+      "Email address": "hello@normative.com",
       Accountability: ["recFFo7YEqGz2EWLh"],
       Purpose: ["recECDDNeQUnMydqS"],
       TaxonomyTable: "Instances",
@@ -3695,7 +3691,7 @@ var databaseContent = {
         "recYiKjpLdjYxxFMt"
       ],
       Description:
-        "De-identified data for planning and research purposes is collected in this area for Sidewalk Labs to measure how visitors move around and engage with our exhibits and prototypes inside 307. ",
+        "De-identified data for planning and research purposes is collected in this area for Normative to measure how visitors move around and engage with our exhibits and prototypes inside 307. ",
       "Data Type": [
         "recayvgBssg0Gb1KS",
         "rec7ZrXrkubsdUWr5",
@@ -3733,7 +3729,7 @@ var databaseContent = {
           }
         }
       ],
-      "Email address": "dtpr-hello@sidewalklabs.com",
+      "Email address": "hello@normative.com",
       Accountability: ["recFFo7YEqGz2EWLh"],
       Purpose: ["recRZfgDZOFHg9pBo"],
       TaxonomyTable: "Instances",
@@ -3752,7 +3748,7 @@ var databaseContent = {
         "Air temperature is monitored as part of a pilot to use occupancy, thermostat, comfort and weather data to determine ways to reduce energy, an aspect of our climate goals. ",
       "Data Type": ["recayvgBssg0Gb1KS"],
       Name: "Temperature Sensor",
-      "Email address": "dtpr-hello@sidewalklabs.com",
+      "Email address": "hello@normative.com",
       Accountability: ["recFFo7YEqGz2EWLh"],
       Purpose: ["recmJUrdMfDggeqhD"],
       TaxonomyTable: "Instances",
@@ -3776,7 +3772,7 @@ var databaseContent = {
         "Infrared depth sensors installed over doorways calculate the number of people who are in a given temperature control zone in a building, in order to adjust the thermostat. This is part of a pilot to use occupancy, thermostat, comfort and weather data to determine ways to reduce energy, an aspect of our climate goals.",
       "Data Type": ["recayvgBssg0Gb1KS", "rec7ZrXrkubsdUWr5"],
       Name: "Infrared Depth Sensors",
-      "Email address": "dtpr-hello@sidewalklabs.com",
+      "Email address": "hello@normative.com",
       Accountability: ["recFFo7YEqGz2EWLh"],
       Purpose: ["recmJUrdMfDggeqhD"],
       TaxonomyTable: "Instances",
@@ -3795,7 +3791,7 @@ var databaseContent = {
         "Smoke detectors are used to reduce the risk of damage or injury that can result from a fire. They provide early warnings either visually or audibly, of the presence of indicators of fire, such as smoke or carbon monoxide.",
       "Data Type": ["recayvgBssg0Gb1KS", "rec7ZrXrkubsdUWr5"],
       Name: "Smoke Detector",
-      "Email address": "dtpr-hello@sidewalklabs.com",
+      "Email address": "hello@normative.com",
       Accountability: ["recFFo7YEqGz2EWLh"],
       Purpose: ["recZgceLPkYJCZpsd", "recECDDNeQUnMydqS"],
       TaxonomyTable: "Instances",
@@ -3814,7 +3810,7 @@ var databaseContent = {
         "The thermostat senses the temperature of the area and makes adjustments in order to keep the conditions near the desired setting for the area. This is part of a pilot to use occupancy, thermostat, comfort and weather data to determine ways to reduce energy, an aspect of our climate goals\n",
       "Data Type": ["recayvgBssg0Gb1KS"],
       Name: "Thermostat",
-      "Email address": "dtpr-hello@sidewalklabs.com",
+      "Email address": "hello@normative.com",
       Accountability: ["recFFo7YEqGz2EWLh"],
       Purpose: ["recmJUrdMfDggeqhD"],
       TaxonomyTable: "Instances",
@@ -3832,7 +3828,7 @@ var databaseContent = {
         "The light switch is equipped with a passive infrared sensor which turns on the lights when motion is detected\n",
       "Data Type": ["rec6Oi01BQBeSAwrO"],
       Name: "Light Switches",
-      "Email address": "dtpr-hello@sidewalklabs.com",
+      "Email address": "hello@normative.com",
       Accountability: ["recFFo7YEqGz2EWLh"],
       Purpose: ["recG2W9ln7lzTyO7N", "recmJUrdMfDggeqhD"],
       TaxonomyTable: "Instances",
@@ -3850,7 +3846,7 @@ var databaseContent = {
         "The faucet is equipped with an infrared proximity sensor that detects when hands are brought near the faucet and turns the faucet on.",
       "Data Type": ["rec6Oi01BQBeSAwrO"],
       Name: "Faucet Switches",
-      "Email address": "dtpr-hello@sidewalklabs.com",
+      "Email address": "hello@normative.com",
       Accountability: ["recFFo7YEqGz2EWLh"],
       Purpose: ["recviXbIfmadT3VOa", "recG2W9ln7lzTyO7N"],
       TaxonomyTable: "Instances",
@@ -3873,7 +3869,7 @@ var databaseContent = {
         "A RFID reader uses radio waves to detect the proximity of an entry card near the lock, at which point identifying information about the user of the card is transmitted to a security computer.",
       "Data Type": ["recayvgBssg0Gb1KS", "rectktQ5QjzTGw8Kj"],
       Name: "Door Lock",
-      "Email address": "dtpr-hello@sidewalklabs.com",
+      "Email address": "hello@normative.com",
       Accountability: ["recFFo7YEqGz2EWLh"],
       Purpose: ["rec91GFfHmvQAO86m"],
       TaxonomyTable: "Instances",
@@ -4140,38 +4136,34 @@ var databaseContent = {
     {
       Headline: "Accountable Organization",
       Description:
-        "Sidewalk Labs is an Alphabet company with a mission to address big urban challenges and improve quality of life using new technologies in a digital age.\n[Find out more here](https://www.sidewalklabs.com)",
+        "Normative is a software innovation firm.\n[Find out more here](https://www.normative.com)",
       Logo: [
         {
           id: "attPWoDENXguuSLqW",
-          url:
-            "https://dl.airtable.com/.attachments/78eac2eb32c685d49fcc96481a7d80b8/c09b7ec1/swl_logo.png",
-          filename: "swl_logo.png",
+          url: "https://imgur.com/BHGCbiH",
+          filename: "normlogo.png",
           size: 10098,
           type: "image/png",
           thumbnails: {
             small: {
-              url:
-                "https://dl.airtable.com/.attachmentThumbnails/2056169b56229c70855bb5e0424a4823/62e2812b",
+              url: "https://imgur.com/BjZndrB ",
               width: 50,
               height: 36
             },
             large: {
-              url:
-                "https://dl.airtable.com/.attachmentThumbnails/32634fdf7e7bfd6dad42d964acba72a6/288e6911",
+              url: "https://imgur.com/IVs1C7B",
               width: 350,
               height: 250
             },
             full: {
-              url:
-                "https://dl.airtable.com/.attachmentThumbnails/a8e1cc60ea2bd8d0433f3ae20a0e4949/a5d007bc",
+              url: "https://imgur.com/CYq9hjT",
               width: 3000,
               height: 3000
             }
           }
         }
       ],
-      Name: "Sidewalk Labs",
+      Name: "Normative",
       "Icon Shortname": "accountable/org",
       "Icon SVG": [
         {
@@ -4911,7 +4903,7 @@ var databaseContent = {
       ],
       "Icon Shortname": "process/rdua",
       Description:
-        "Data activity has undergone a Responsible Data Use Assessment and determined to provide a net benefit. The RDUA is a process that Sidewalk Labs conducts prior to the start of any data activity.",
+        "Data activity has undergone a Responsible Data Use Assessment and determined to provide a net benefit. The RDUA is a process that Normative conducts prior to the start of any data activity.",
       Name: "RDUA Approved",
       Technologies: [
         "recbAeqVohzghEEik",
