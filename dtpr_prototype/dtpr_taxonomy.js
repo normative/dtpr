@@ -531,23 +531,23 @@ var allRecords = {
     Logo: [
       {
         id: "attPWoDENXguuSLqW",
-        url: "https://imgur.com/BHGCbiH",
+        url: "https://i.imgur.com/BjZndrB.png",
         filename: "normlogo.png",
         size: 10098,
         type: "image/png",
         thumbnails: {
           small: {
-            url: "https://imgur.com/BjZndrB",
+            url: "https://i.imgur.com/BjZndrB.png",
             width: 50,
             height: 36
           },
           large: {
-            url: "https://imgur.com/IVs1C7B",
+            url: "https://i.imgur.com/IVs1C7B.png",
             width: 350,
             height: 250
           },
           full: {
-            url: "https://imgur.com/CYq9hjT",
+            url: "https://i.imgur.com/CYq9hjT.png",
             width: 3000,
             height: 3000
           }
@@ -4140,23 +4140,23 @@ var databaseContent = {
       Logo: [
         {
           id: "attPWoDENXguuSLqW",
-          url: "https://imgur.com/BHGCbiH",
+          url: "https://i.imgur.com/BjZndrB.png",
           filename: "normlogo.png",
           size: 10098,
           type: "image/png",
           thumbnails: {
             small: {
-              url: "https://imgur.com/BjZndrB ",
+              url: "https://i.imgur.com/BjZndrB.png",
               width: 50,
               height: 36
             },
             large: {
-              url: "https://imgur.com/IVs1C7B",
+              url: "https://i.imgur.com/IVs1C7B.png",
               width: 350,
               height: 250
             },
             full: {
-              url: "https://imgur.com/CYq9hjT",
+              url: "https://i.imgur.com/CYq9hjT.png",
               width: 3000,
               height: 3000
             }
