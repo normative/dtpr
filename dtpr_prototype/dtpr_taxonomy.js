@@ -531,13 +531,13 @@ var allRecords = {
     Logo: [
       {
         id: "attPWoDENXguuSLqW",
-        url: "https://i.imgur.com/BjZndrB.png",
+        url: "https://i.imgur.com/mUl2A0C.png",
         filename: "normlogo.png",
         size: 10098,
         type: "image/png",
         thumbnails: {
           small: {
-            url: "https://i.imgur.com/BjZndrB.png",
+            url: "https://i.imgur.com/NKqGI64.png",
             width: 50,
             height: 36
           },
@@ -4140,13 +4140,13 @@ var databaseContent = {
       Logo: [
         {
           id: "attPWoDENXguuSLqW",
-          url: "https://i.imgur.com/BjZndrB.png",
+          url: "https://i.imgur.com/mUl2A0C.png",
           filename: "normlogo.png",
           size: 10098,
           type: "image/png",
           thumbnails: {
             small: {
-              url: "https://i.imgur.com/BjZndrB.png",
+              url: "https://i.imgur.com/NKqGI64.png",
               width: 50,
               height: 36
             },
